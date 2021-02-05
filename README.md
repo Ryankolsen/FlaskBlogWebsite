@@ -12,3 +12,5 @@ This program/site allows a user to:
 
 
 Run Instructions: Download all files, navigate to the main folder and run script "python run.py" to bring up a locally run version of the site. 
+
+Please also see .pdf screenshots from the running website
