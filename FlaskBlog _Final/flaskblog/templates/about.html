@@ -1,0 +1,102 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h1 class="text-center font-weight-bold"> All About Our Website</h1>
+    <!doctype html>
+
+        <main>
+          <section class="py-5 text-center container">
+            <div class="row py-lg-5">
+              <div class="col-lg-7 col-md-10 mx-auto">
+                <h1 class="fw-light">Our Company</h1>
+                <p class="lead text-muted">We provide you with the highest level of service, professional environment, and the best quality product</p>
+                <p>
+                  <a href="{{ url_for('main.home') }}" class="btn btn-primary my-2">Homepage</a>
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <div class="album py-5 bg-light">
+            <div class="container">
+
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img class="article-image" src="static/office_pics/Building.jpg" height="100%"" width="100%" object-fit="contain">
+
+                    <div class="card-body">
+                      <p class="h6">Here is our very first project. We worked hard to complete it.</p>
+                      <div class="d-flex justify-content-between">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary align-self-center">Details</button>
+
+                        </div>
+                        <small class="text-muted h6">2018</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img class="article-image" src="static/office_pics/Computer.jpg" height="100%"" width="100%" object-fit="contain">
+
+                    <div class="card-body">
+                      <p class="h6">This is our second project. We are very proud of the final product!</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Details</button>
+                        </div>
+                        <small class="text-muted h6">2018</small>
+                      </div>
+                    </div>
+                </div>
+                </div>
+                </div>
+            </div>
+            </div>
+
+            <div class="album py-5 bg-light">
+            <div class="container">
+
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img class="article-image" src="static/office_pics/Cat.jpg" height="100%"" width="100%" object-fit="contain">
+
+                    <div class="card-body">
+                      <p class="h6">Our third project was AMAZING!</p>
+                      <!-- <div class="d-flex justify-content-between align-items-center"> -->
+                      <div class="d-flex justify-content-between align-self-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Details</button>
+
+                        </div>
+                        <small class="text-muted h6">2018</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img class="article-image" src="static/office_pics/swirl.jpg" height="100%"" width="100%" object-fit="contain">
+
+                    <div class="card-body">
+                      <p class="h6">Here is our most recent project.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Details</button>
+                        </div>
+                        <small class="text-muted h6">2018</small>
+                      </div>
+                    </div>
+                </div>
+                </div>
+                </div>
+            </div>
+            </div>
+          </div>
+        </main>
+            <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+        {% endblock content %}
+
